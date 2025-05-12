@@ -83,6 +83,7 @@ export type TranslationKey =
   | "studentDormitoryDesc"
   | "ourPartners"
   | "copyright"
+  | "years"
 
 export const translations: Record<Language, Record<TranslationKey, string>> = {
   zh: {
