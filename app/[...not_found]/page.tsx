@@ -1,6 +1,6 @@
 // 创建一个捕获所有未匹配路由的页面
 // 这是一个服务器组件，不使用任何客户端钩子
-
+export const runtime = 'edge';
 import { notFound } from "next/navigation"
 
 export default function CatchAllNotFound() {
