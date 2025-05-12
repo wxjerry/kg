@@ -1,17 +1,23 @@
 /** @type {import('next').NextConfig} */
-
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+}
 // next.config.mjs
 export default {
   experimental: {
     serverComponents: {
-      external: ['node-fetch', 'axios'], // 兼容特定模块
+      external: ['node-fetch'], // 添加需要兼容的Node.js模块
     },
-    serverActions: true,
-    nodejs_compat: true,
-    runtime: 'edge',
+    serverActions: true, // 如果使用了Server Actions
+    nodejs_compat: true, // 启用Node.js兼容性层
   },
-  images: {
-    domains: ['picsum.photos'], // 允许的图片域名
-  },
+  runtime: 'edge', // 全局启用Edge Runtime
 };
-export default nextConfig
