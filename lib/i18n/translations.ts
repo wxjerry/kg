@@ -183,6 +183,7 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
       "我校为学生提供了现代化的宿舍，每个宿舍都配备了高速互联网和基本生活设施。宿舍区还设有公共活动区域、健身房和自习室，为学生提供了舒适的生活环境。",
     ourPartners: "我们的合作伙伴",
     copyright: "版权所有",
+    years:"years",
   },
   en: {
     home: "Home",
@@ -289,6 +290,7 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
       "Our university provides modern dormitories for students, each equipped with high-speed internet and basic living facilities. The dormitory area also has public activity areas, gyms, and study rooms, providing students with a comfortable living environment.",
     ourPartners: "Our Partners",
     copyright: "Copyright",
+    years:"years",
   },
   kg: {
     home: "Башкы бет",
@@ -397,5 +399,6 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
       "Биздин университет студенттер үчүн заманбап жатаканаларды камсыз кылат, ар бири жогорку ылдамдыктагы интернет жана негизги жашоо шарттары менен жабдылган. Жатакана аймагында ошондой эле коомдук иш-чара аянтчалары, спорт залдары жана окуу бөлмөлөрү бар, студенттерге ыңгайлуу жашоо чөйрөсүн камсыз кылат.",
     ourPartners: "Биздин өнөктөштөр",
     copyright: "Автордук укук",
+    years:"years",
   },
 }
